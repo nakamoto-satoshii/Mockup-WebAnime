@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="Logincss/LoginDesign.css">
+    <link rel="icon" href="Logincss/logo/logo.png" type="image/icon type">
+</head>
+<body class="clsbody">
+    <div class="backgroundd">
+        <div id="LoginPanel">
+            <p class="txtmessage">Welcome User. Log in with your Account</p>
+            <input type="text" placeholder="EMAIL" id="username">
+            <br><br>
+            <input type="password" placeholder="PASSWORD" id="password">
+            <br><br>
+            <button type="submit" onclick="login()" class="btnlogin">LOGIN</button>
+            <br><br>
+            <p class="register">New User? <a class="linkregister" href="singup.htm"> Create New Account</a></p>
+            <br>
+            <button type="button" class="btnlogingoogle"><a class="txtlogingoogle" href="https://www.google.com/">Login with Google</a></button>
+            <button type="submit" class="btnloginwithfacebook"><a class="txtloginfacebook" href="https://web.facebook.com/"><b>Login with Facebook</b></a></button>
+            <p id="loginstatus"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
