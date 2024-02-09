@@ -56,7 +56,7 @@ function register(){
     if(registered)
     {
         setTimeout(function(){
-            window.location.href = "login.htm";
+            window.location.href = "index.html";
         },1000)
 
     }
